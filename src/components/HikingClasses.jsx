@@ -5,7 +5,9 @@ import { styles } from "../style.jsx";
 
 const HikingClasses = () => {
   return (
-    <div className={`${styles.boxGapX} section d-flex justify-content-center flex-column  my-5 h-100`}>
+    <div
+      className={`${styles.boxGapX} section d-flex justify-content-center flex-column  my-5 h-100`}
+    >
       <h2 className=" d-flex flex-row">
         <div className="d-flex flex-column me-4 h-100">
           <img src={cross} className="mb-2" style={{ width: "2rem" }} alt="" />

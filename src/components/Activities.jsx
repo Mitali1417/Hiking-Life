@@ -16,7 +16,8 @@ const Activities = () => {
             color: "#ff8c00",
           }}
         >
-          Walking in nature <br className="hide" /> as a recreational <br className="hide" /> activity
+          Walking in nature <br className="hide" /> as a recreational{" "}
+          <br className="hide" /> activity
         </h2>
         <h3>.Activities</h3>
         <h5 className=" my-4 lh-lg">

@@ -1,13 +1,13 @@
 import React from "react";
 import Logo from "../assets/nav-logo.svg";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import { styles } from "../style";
 
 const Navbar = () => {
   return (
     <nav
-      className={`screen-nav ${styles.boxGapX} ${styles.boxGapY} navbar navbar-expand-lg navbar-light py-2 position-absolute z-3 `}
+      className={`screen-nav ${styles.boxGapX} ${styles.boxGapY} navbar navbar-expand-lg navbar-light position-absolute z-3 `}
     >
       <div className="container d-flex align-items-end">
         <div className="navbar-brand fs-3 d-flex align-items-end">

@@ -62,9 +62,11 @@ const PlaceToVisit = () => {
           </div>
         ))}
       </div>
-        <div className="w-full text-center mt-4 ">
-          <button type="button" className="btn btn-outline-primary px-5 ">Submit</button>
-        </div>
+      <div className="w-full text-center mt-4 ">
+        <button type="button" className="btn btn-outline-primary px-5 ">
+          Submit
+        </button>
+      </div>
     </div>
   );
 };

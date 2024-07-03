@@ -7,7 +7,8 @@ const Hero = () => {
       className={`section section-hero position-relative hero-bg-image text-light d-flex justify-content-start align-content-center`}
     >
       <div
-        className={`${styles.boxGapX} position-absolute z-3 h-100 d-flex flex-column justify-content-center`} style={{paddingBottom: "8rem"}}
+        className={`${styles.boxGapX} position-absolute z-3 h-100 d-flex flex-column justify-content-center`}
+        style={{ paddingBottom: "8rem" }}
       >
         <h1 className="">
           Discover your <br className="hide" /> next Hike
@@ -16,8 +17,8 @@ const Hero = () => {
           Discover your <br className="hide" /> next Hike
         </h5>
         <h5 className="fw-bold ">
-          Lorem ipsum dolor, sit amet <br className="hide" /> consectetur <br className="hide" /> adipisicing
-          elit, sed do.
+          Lorem ipsum dolor, sit amet <br className="hide" /> consectetur{" "}
+          <br className="hide" /> adipisicing elit, sed do.
         </h5>
       </div>
       <div className="hero-bg-divider" />

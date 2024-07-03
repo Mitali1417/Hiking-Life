@@ -9,7 +9,9 @@ const IceClimbing = () => {
         className={` ${styles.paddingX}  ${styles.paddingY} section text-light d-flex flex-column flex-xl-row justify-content-between align-items-center h-100`}
         style={{ background: "#16212C" }}
       >
-        <div className={`${styles.boxGapX} m-xl-5 py-5 w-100 d-flex justify-content-center justify-content-xl-end align-items-center flex-column position-relative h-100`}>
+        <div
+          className={`${styles.boxGapX} m-xl-5 py-5 w-100 d-flex justify-content-center justify-content-xl-end align-items-center flex-column position-relative h-100`}
+        >
           <img
             src={Img1}
             className="img1"
@@ -28,7 +30,9 @@ const IceClimbing = () => {
             Walking in nature <br className="hide" /> as a recreational activity
           </p>
         </div>
-        <div className={`${styles.boxGapX}  d-flex justify-content-center justify-content-xl-end w-100 pe-xl-5 me-xl-5 my-5 my-xl-0 py-5 py-xl-0`}>
+        <div
+          className={`${styles.boxGapX}  d-flex justify-content-center justify-content-xl-end w-100 pe-xl-5 me-xl-5 my-5 my-xl-0 py-5 py-xl-0`}
+        >
           <div className="lh-xl w-100">
             <h2 className="fw-bold">
               Mountaineering <br className="hide" /> Ice Climbing
@@ -73,8 +77,9 @@ const IceClimbing = () => {
             className={`${styles.boxGapX} text-center rock-climb-text d-flex flex-column justify-content-center align-items-center h-100 `}
           >
             <h3 className="fst-italic lh-base ">
-              The Asanas Purify our body and <br className="hide" /> keep it healthy, making it a
-              suitable <br className="hide" /> vehicle for the soul.
+              The Asanas Purify our body and <br className="hide" /> keep it
+              healthy, making it a suitable <br className="hide" /> vehicle for
+              the soul.
             </h3>
             <button
               type="button"

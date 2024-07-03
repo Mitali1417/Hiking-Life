@@ -12,9 +12,9 @@ const Footer = () => {
           <div>
             <h4 className="text-uppercase pb-2">About</h4>
             <h6 className="lh-base">
-              Lorem ipsum dolor sit amet consect <br className="hide" /> adipisicing elit.
-              Cupiditate maiores unde ad! Ducimus quas eligendi esse iste
-              aliquam.
+              Lorem ipsum dolor sit amet consect <br className="hide" />{" "}
+              adipisicing elit. Cupiditate maiores unde ad! Ducimus quas
+              eligendi esse iste aliquam.
             </h6>
           </div>
           <div className="navbar-brand fs-3 d-flex align-items-end mt-5">
@@ -63,7 +63,7 @@ const Footer = () => {
         style={{
           minWidth: "100%",
           border: "2rem solid #00C7E4",
-          position: "absolute"
+          position: "absolute",
         }}
       />
     </>

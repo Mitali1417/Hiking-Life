@@ -5,7 +5,9 @@ import { styles } from "../style";
 const RockClimbing = () => {
   return (
     <div>
-      <div className={`${styles.boxGapX} ${styles.boxGapY} ${styles.paddingY} section mx-xl-5 d-flex flex-column flex-xl-row justify-content-center justify-content-xl-between align-items-center h-100`}>
+      <div
+        className={`${styles.boxGapX} ${styles.boxGapY} ${styles.paddingY} section mx-xl-5 d-flex flex-column flex-xl-row justify-content-center justify-content-xl-between align-items-center h-100`}
+      >
         <div className="lh-xl w-100">
           <h2 className="fw-bold text-center text-xl-start w-full ">
             Rock <br className="hide" /> Climbing
@@ -65,7 +67,9 @@ const RockClimbing = () => {
       </div>
       <div className="bg-dark">
         <div className="rock-climb-bg text-light ">
-          <div className={`${styles.boxGapX}  rock-climb-text d-flex flex-column justify-content-center align-items-start h-100`}>
+          <div
+            className={`${styles.boxGapX}  rock-climb-text d-flex flex-column justify-content-center align-items-start h-100`}
+          >
             <h2 className=" my-3" style={{ fontSize: "3.5rem" }}>
               Big Bend National Park <br /> Hiding Guide
             </h2>
